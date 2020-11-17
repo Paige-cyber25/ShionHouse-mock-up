@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Bitter', serif;
+    font-size: 2em;
+    font-weight:700;
+}
+
+.nav-link {
+    color: #1D2547!important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-link, .navbar-brand:hover {
+    color: rgb(83, 27, 83) !important;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-pinterest-p,
+.fa-search {
+    border-radius: 50%;
+    border:1px solid #D9D9D7;
+    padding: 7px;
+}
+
+.fa-shopping-bag {
+    border-radius: 40%;
+    color: #fff;
+    border:1px solid #EFF5F8;
+    background-color: #9F78FF;
+    padding: 7px;
+    width: 3.5em;
+    text-align: center;
+}
+.carousel-inner, .carousel-item,.fill{
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+}
+
+.carousel-caption {
+    top: 20%;
+    bottom: auto;
+    height: 100%;
+
+}
+.carousel-caption h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 4px;
+    font-size: 5em;
+}
+
+.carousel-caption h4 {
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    
+}
+
+.btn-primary {
+    background-color: #9F78FF !important;
+}
+
+.content-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    font-weight: 700;
+    padding: 1em;
+    color: #140C40;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.card-text a {
+    color: #000;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;  
+}
+
+.btn-outline-primary {
+    color:  #A682FF !important;
+}
+
+.btn-outline-primary h5 {
+    color:  #A682FF !important;
+    text-transform: capitalize;
+}
+
+.carousel-caption h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Xanh Mono', monospace;
+    letter-spacing: 4px;
+    font-size: 3em;
+}
+
+.card-deck h2 {
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-deck button {
+   margin-right: 250px;
+   padding: 7px;
+}
+
+section .row {
+    display: flex;
+    background-color: #F7F7FD;
+}
+
+section .column {
+    flex: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.first-paragraph {
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.second-paragraph {
+    color: #7B667E;
+    text-align: left;
+}
+
+footer .row {
+    display: flex;
+    background-color: #1D2547;
+    padding: 5px;
+}
+
+footer .column {
+    flex: 20%;
+    padding-top: 8em;
+    padding-bottom: 10em;
+    padding-left: 15px;
+}
+
+.header1 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Bitter', serif;
+}
+
+
+
+.header1-paragraph {
+    color: #fff;
+    text-align: left;
+    
+}
+
+.header2 {
+    color: #fff;
+   
+}
+
+.header2-a {
+    color: #fff;
+    float: left;
+}
+
+.header3 {
+    color: #fff;
+}
+
+.header3-a {
+    color: #fff;
+    float: left;
+}
+
+.header4 {
+    color: #fff;
+}
+
+.header4-a {
+    color: #fff;
+    float: left;
+}
+
+.header5 {
+    color: #fff;
+}
+
+.header5-a {
+    color: #fff;
+    float: left;;
+}
+
+h6 {
+    color: #fff;
+    padding-left: 12em;
+    
+}
+
+.heart {
+    color: #9F78FF;
+}
+
+.colorlib {
+    color: #8E78FF;
+}
+
+
+
+@media (max-width: 560px) {
+    .carousel-caption h1 {
+        letter-spacing: 1px;
+        font-size: 1em;
+    }
+    .carousel-caption h4 {
+        padding: 5px;
+     
+  }
+  
+  @media (max-width: 400px) {
+    .carousel-caption h1 {
+      font-size:1em;
+    }
+    .carousel-caption h4 {
+      font-size: 1em;
+    }
+  }
